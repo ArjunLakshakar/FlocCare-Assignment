@@ -7,7 +7,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://arjunlakshkar1234:ArJuN963@cluster0.prqkuw4.mongodb.net/flocCare_Assignment?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.getenv("DB_NAME", "blogdb")
 
 client = MongoClient(MONGO_URI)
